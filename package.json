@@ -1,0 +1,18 @@
+{
+  "name": "rabbitmq-order-orchestration-platform",
+  "version": "1.0.0",
+  "scripts": {
+    "producer": "node src/producer/index.js",
+    "consumer": "node src/consumer/index.js",
+    "producer:dev": "nodemon src/producer/index.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.8",
+    "dotenv": "^16.0.0",
+    "uuid": "^11.0.0",
+    "winston": "^3.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
