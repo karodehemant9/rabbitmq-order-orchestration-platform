@@ -4,7 +4,9 @@
   "scripts": {
     "producer": "node src/producer/index.js",
     "consumer": "node src/consumer/index.js",
-    "producer:dev": "nodemon src/producer/index.js"
+    "producer:dev": "nodemon src/producer/index.js",
+    "topic-producer": "node src/producer/topic-producer.js",
+    "topic-consumer": "node src/consumer/topic-consumer.js"
   },
   "dependencies": {
     "amqplib": "^0.10.8",
