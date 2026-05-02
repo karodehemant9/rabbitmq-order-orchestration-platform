@@ -9,7 +9,9 @@
     "topic-consumer": "node src/consumer/topic-consumer.js",
     "fanout-producer": "node src/producer/fanout-producer.js",
     "fanout-consumer": "node src/consumer/fanout-consumer.js",
-    "payment-worker": "node src/consumer/payment-worker.js"
+    "payment-worker": "node src/consumer/payment-worker.js",
+    "retry-setup": "node src/retry/setup-retry.js",
+    "dlq-consumer": "node src/dlq/dlq-consumer.js"
   },
   "dependencies": {
     "amqplib": "^0.10.8",

@@ -35,6 +35,7 @@ async function start() {
         ROUTING_KEYS.PAYMENT,
 
         Buffer.from(JSON.stringify(order)),
+        { priority: 10 },
       );
 
       logger.info({
