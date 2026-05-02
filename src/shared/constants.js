@@ -2,6 +2,7 @@ module.exports = {
   EXCHANGES: {
     ORDER_DIRECT: "order.direct",
     ORDER_TOPIC: "order.topic",
+    ORDER_FANOUT: "order.fanout",
   },
 
   ROUTING_KEYS: {
@@ -13,5 +14,6 @@ module.exports = {
     PAYMENT: "payment.queue",
     EMAIL: "email.queue",
     ANALYTICS: "analytics.queue",
+    AUDIT: "audit.queue",
   },
 };
